@@ -1,3 +1,4 @@
+
 <?php
 
 /*
@@ -20,6 +21,8 @@ Route::resource('akiya', 'AkiyaController');
 Route::resource('builder', 'BuilderController');
 Route::resource('build', 'BuildController');
 
+Route::resource('/photos', 'PhotosController', ['only' => ['create', 'store']]);
+
 Route::get('/akiya/{id}/show', 'AkiyaController@show');
 Route::get('/akiya', 'AkiyaController@index');
 
@@ -35,16 +38,12 @@ Route::get('/builder', 'BuilderController@index');
 Route::get('/builder/create', 'BuilderController@create');
 Route::post('/builder/create', 'BuildController@store');
 
+Route::get('/match/create', 'MatchController@create');
+Route::post('/match/create', 'MatchController@store');
+
 
 Route::resource('comments', 'CommentsController');
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-
-Route::get('/users', function () {
-    return App\User::all();
-});
