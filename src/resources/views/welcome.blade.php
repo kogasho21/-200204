@@ -17,16 +17,16 @@
     <!-- CSS -->
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:500&display=swap" rel="stylesheet">
-    <link href="./assets/css/slick.css" rel="stylesheet" type="text/css" media="all">
-    <link href="./assets/css/common.css" rel="stylesheet" type="text/css" media="all">
-    <link href="./assets/css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="{{ asset('/css/slick.css') }}" rel="stylesheet" type="text/css" media="all">
+    <link href="{{ asset('/css/common.css') }}" rel="stylesheet" type="text/css" media="all">
+    <link href="{{ asset('/css/style.css') }}" rel="stylesheet" type="text/css" media="all">
 
     <!--javascript-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/object-fit-images/3.2.3/ofi.min.js"></script>
-    <script src="./assets/js/slick.js"></script>
-    <script src="./assets/js/script.js"></script>
+    <script src="{{ asset('/js/slick.js') }}"></script>
+    <script src="{{ asset('/js/script.js') }}"></script>
 
 </head>
 
