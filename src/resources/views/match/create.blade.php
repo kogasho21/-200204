@@ -1,4 +1,4 @@
-<!-- @extends('layouts.default') -->
+@extends('layouts.default')
 @section('content')
 
 <div class="col-xs-8 col-xs-offset-2">
