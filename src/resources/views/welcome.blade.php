@@ -17,9 +17,7 @@
     <!-- CSS -->
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:500&display=swap" rel="stylesheet">
-    <link href="./assets/css/slick.css" rel="stylesheet" type="text/css" media="all">
-    <link href="./assets/css/common.css" rel="stylesheet" type="text/css" media="all">
-    <link href="./assets/css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="/css/styles.css">
 
     <!--javascript-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
