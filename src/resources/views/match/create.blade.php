@@ -5,6 +5,7 @@
 
     <h1>好きなもの登録ページ</h1>
 
+    {{ Form::open(['action' => 'MatchController@store'], array('class' => 'form')) }}
 
     <div class="form-group">
         <label for="clothes" class="">服</label>
