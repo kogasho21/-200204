@@ -4,7 +4,6 @@
 <div class="col-xs-8 col-xs-offset-2">
 
     <div class="mb-4">
-        <p>{{ link_to("/build/create", '建築物を新規作成する', array('class' => 'btn btn-primary')) }}</p>
         <hr />
     </div>
 
