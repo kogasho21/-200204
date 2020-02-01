@@ -61,11 +61,11 @@
                     <span> recobuilとは理想のライフスタイルの実現をサポートする空き家リノベーションサービスです</span>
                 </h2>
                 <ul class="main-slide">
-                    <li><img src="{{ asset('/img/slide_01.jpg') }}alt="></li>
-                    <li><img src="{{ asset('/img/slide_02.jpg') }}alt="></li>
-                    <li><img src="{{ asset('/img/slide_03.jpg') }}alt="></li>
-                    <li><img src="{{ asset('/img/slide_04.jpg') }}alt="></li>
-                    <li><img src="{{ asset('/img/slide_05.jpg') }}alt="></li>
+                    <li><img src="{{ asset('/img/slide_01.jpg') }}" alt=""></li>
+                    <li><img src="{{ asset('/img/slide_02.jpg') }}" alt=""></li>
+                    <li><img src="{{ asset('/img/slide_03.jpg') }}" alt=""></li>
+                    <li><img src="{{ asset('/img/slide_04.jpg') }}" alt=""></li>
+                    <li><img src="{{ asset('/img/slide_05.jpg') }}" alt=""></li>
                 </ul>
             </div><!-- .main_visual end-->
 
