@@ -22,7 +22,7 @@
                 <div class="c-house__list">
                     <div class="house__item">
                         <div class="item__img">
-                            <img src="{{ asset('/img/dummy_01.jpg) }}" alt="">
+                            <img src="{{ asset('/img/dummy_01.jpg') }}" alt="">
                         </div>
                         <div class="item__txt">
                             <dl>
