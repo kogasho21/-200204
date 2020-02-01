@@ -58,7 +58,7 @@
             <div class="main_visual">
                 <h2 class="main_ttl">
                     「理想のライフスタイルの実現をサポート」
-                    <span> recobuilとは理想のライフスタイルの実現をサポートする空き家リノベーションサービスです</span>
+                    <span> レコビルとは理想のライフスタイルの実現をサポートする空き家リノベーションサービスです</span>
                 </h2>
                 <ul class="main-slide">
                     <li><img src="{{ asset('/img/slide_01.jpg') }}" alt=""></li>
@@ -71,12 +71,12 @@
 
             <section class="p-wrap">
                 <div class="home-lead">
-                    <p class="lead__ttl">"recobuilはあなたの理想にあったぴったりの⽣活を実現することができます"</p>
+                    <p class="lead__ttl">"レコビルはあなたの理想にあったぴったりの⽣活を実現することができます"</p>
                     <p class="lead__txt">⾃然の近くで⼦供を育てたい、海の近くに住みたい、おしゃれな家で⽣活がしたい、、、<br>そんな⾃分の理想の暮らし⽅を理想の形で実現させることができます。</p>
                 </div>
 
                 <div class="home-how">
-                    <h3>recobuilの使い⽅</h3>
+                    <h3>レコビルの使い⽅</h3>
                     <div class="how__list">
                         <div class="how__item item01">
                             <h4>①住みたい場所（空き家）を⾒つける</h4>
