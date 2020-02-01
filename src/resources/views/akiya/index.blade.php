@@ -15,14 +15,14 @@
                     </select>
                 </div>
                 <div class="mapArea">
-                    <img src="../assets/img/map.png" alt="">
+                    <img src="{{ asset('/img/map.png') }}" alt="">
                 </div>
 
                 <p class="c-title"><span>八女市</span>の空き家(○○件)</p>
                 <div class="c-house__list">
                     <div class="house__item">
                         <div class="item__img">
-                            <img src="../assets/img/dummy_01.jpg" alt="">
+                            <img src="{{ asset('/img/dummy_01.jpg) }}" alt="">
                         </div>
                         <div class="item__txt">
                             <dl>
@@ -39,7 +39,7 @@
                                 <dt>建物構造：</dt>
                                 <dd>{{ $akiya->buildingstructure }}</dd>
                                 @foreach ($akiya->image_paths as $image_path)
-                                <img width="100" src="{{ $image_path }}">
+                                <img width=" 100" src="{{ $image_path }}">
                                 @endforeach
                                 @endforeach
                             </dl>
