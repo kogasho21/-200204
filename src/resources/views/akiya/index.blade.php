@@ -4,7 +4,6 @@
 <div class="col-xs-8 col-xs-offset-2">
     <div class="mb-4">
         @foreach ($akiyas as $akiya)
-        <!-- <p>{{ link_to("/akiya/{$akiya->id}/show", '続きを読む', array('class' => 'btn btn-primary')) }}</p> -->
         {{ $akiya->akiya_id }}<br>
         {{ $akiya->location }}<br>
         {{ $akiya->landarea }}<br>
