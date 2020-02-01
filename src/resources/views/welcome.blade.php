@@ -37,7 +37,7 @@
         <div class="l-header__inner">
             <div class="logoArea">
                 <h1 class="site__logo">
-                    <a href="/"><img src="{{ asset('/img/common/logo.svg') }}" alt="recobuil" width="250"></a>
+                    <a href="/"><img src="{{ asset('/img/common/logo.png') }}" alt="recobuil" width="250"></a>
                 </h1>
             </div>
             <nav class="l-navArea">
