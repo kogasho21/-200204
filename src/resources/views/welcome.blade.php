@@ -80,10 +80,10 @@
                     <div class="how__list">
                         <div class="how__item item01">
                             <h4>①住みたい場所（空き家）を⾒つける</h4>
-                            <img src="./assets/img/illust_01.png" alt="" width="260">
+                            <img src="{{ asset('/img/illust_01.png) }}" alt="" width="260">
                             <div class="fBox">
                                 <div class="fBox__img">
-                                    <img src="./assets/img/illust_02.png" alt="" width="160">
+                                    <img src="{{ asset('/img/illust_02.png) }}" alt="" width="160">
                                 </div>
                                 <div class="fBox__txt">
                                     <ul>
@@ -100,14 +100,14 @@
 
                         <div class="how__item item02">
                             <h4>②理想の建物のイメージを⾒つける</h4>
-                            <img src="./assets/img/illust_03.png" alt="" width="260">
+                            <img src="{{ asset('/img/illust_03.png) }}" alt="" width="260">
                             <p class="u-center">Aさんの好きなジャンル<br>↓<br>AIがAさん好みの建物をレコメンド</p>
                             <div class="fBox">
                                 <div class="fBox__img">
-                                    <img src="./assets/img/illust_04.png" alt="" width="150">
+                                    <img src="{{ asset('/img/illust_04.png) }}" alt="" width="150">
                                 </div>
                                 <div class="fBox__img">
-                                    <img src="./assets/img/illust_05.png" alt="" width="150">
+                                    <img src="{{ asset('/img/illust_05.png) }}" alt="" width="150">
                                 </div>
                             </div>
                             <p>あなたの趣味嗜好から、AIが分析し、あなたにぴったりの建物のイメージをレコメンドします。</p>
@@ -120,7 +120,7 @@
                             <h4>③理想の地域に理想の暮らしで住む</h4>
                             <div class="fBox">
                                 <div class="fBox__img u-border">
-                                    <img src="./assets/img/illust_02.png" alt="" width="150">
+                                    <img src="{{ asset('/img/illust_02.png) }}" alt="" width="150">
                                 </div>
                                 <p class="fBox__txt u-center">
                                     空き家
@@ -129,7 +129,7 @@
                             <p class="mark">×</p>
                             <div class="fBox">
                                 <div class="fBox__img">
-                                    <img src="./assets/img/illust_05.png" alt="" width="150">
+                                    <img src="{{ asset('/img/illust_05.png) }}" alt="" width="150">
                                 </div>
                                 <p class="fBox__txt u-center">
                                     「理想の住まい」
@@ -138,7 +138,7 @@
                             <p class="mark">×</p>
                             <div class="fBox last">
                                 <div class="fBox__img imgCenter">
-                                    <img src="./assets/img/illust_06.png" alt="" width="75">
+                                    <img src="{{ asset('/img/illust_06.png) }}" alt="" width="75">
                                 </div>
                                 <p class="fBox__txt u-center">
                                     「建築家」
