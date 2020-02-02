@@ -73,9 +73,9 @@
                         <div class="house__item">
 
                             @foreach ($akiyas as $akiya)
-                            {{ $akiya->akiya_id }}
                             <div class="item__txt">
                                 <dl>
+                                    <!-- {{ $akiya->akiya_id }} -->
                                     <dt>所在地：</dt>
                                     <dd>{{ $akiya->location }}</dd>
                                     <dt>⼟地⾯積：</dt>
@@ -89,10 +89,10 @@
                                     @foreach ($akiya->image_paths as $image_path)
                                     <img width=" 100" src="{{ $image_path }}">
                                     @endforeach
-                                    @endforeach
                                     <span class="icon-fav"></span>
                                 </dl>
                             </div>
+                            @endforeach
                         </div>
                     </div>
                 </form>
