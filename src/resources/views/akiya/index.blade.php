@@ -72,7 +72,8 @@
                     <div class="c-house__list">
 
                         @foreach ($akiyas as $akiya)
-                        <div class="house__item">
+
+                        <div class="item__txt">
                             <!-- {{ $akiya->akiya_id }} -->
                             <dt>所在地：</dt>
                             <dd>{{ $akiya->location }}</dd>
@@ -88,6 +89,7 @@
                             <img width=" 100" src="{{ $image_path }}">
                             @endforeach
                             <span class="icon-fav"></span>
+
                         </div>
 
                         @endforeach
