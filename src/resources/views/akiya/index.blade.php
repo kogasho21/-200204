@@ -72,24 +72,22 @@
                     <div class="c-house__list">
                         <div class="house__item">
                             <div class="item__txt">
-                                <dl>
-                                    @foreach ($akiyas as $akiya)
-                                    {{ $akiya->akiya_id }}
-                                    <dt>所在地：</dt>
-                                    <dd>{{ $akiya->location }}</dd>
-                                    <dt>⼟地⾯積：</dt>
-                                    <dd>{{ $akiya->landarea }}</dd>
-                                    <dt>私道⾯積：</dt>
-                                    <dd>{{ $akiya->drivewayarea }}</dd>
-                                    <dt>建物⾯積：</dt>
-                                    <dd>{{ $akiya->buildingarea }}</dd>
-                                    <dt>建物構造：</dt>
-                                    <dd>{{ $akiya->buildingstructure }}</dd>
-                                    @foreach ($akiya->image_paths as $image_path)
-                                    <img width=" 100" src="{{ $image_path }}">
-                                    @endforeach
-                                    @endforeach
-                                </dl>
+                                @foreach ($akiyas as $akiya)
+                                {{ $akiya->akiya_id }}
+                                <dt>所在地：</dt>
+                                <dd>{{ $akiya->location }}</dd>
+                                <dt>⼟地⾯積：</dt>
+                                <dd>{{ $akiya->landarea }}</dd>
+                                <dt>私道⾯積：</dt>
+                                <dd>{{ $akiya->drivewayarea }}</dd>
+                                <dt>建物⾯積：</dt>
+                                <dd>{{ $akiya->buildingarea }}</dd>
+                                <dt>建物構造：</dt>
+                                <dd>{{ $akiya->buildingstructure }}</dd>
+                                @foreach ($akiya->image_paths as $image_path)
+                                <img width=" 100" src="{{ $image_path }}">
+                                @endforeach
+                                @endforeach
                                 <span class="icon-fav"></span>
                             </div>
                         </div>
