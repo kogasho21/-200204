@@ -69,10 +69,9 @@
                     </div>
 
                     <p class="c-title">空き家(24件)</p>
-
-                    @foreach ($akiyas as $akiya)
-
                     <div class="c-house__list">
+
+                        @foreach ($akiyas as $akiya)
                         <div class="house__item">
                             <div class="house__item">
                                 <!-- {{ $akiya->akiya_id }} -->
@@ -92,10 +91,9 @@
                                 <span class="icon-fav"></span>
                             </div>
                         </div>
+
+                        @endforeach
                     </div>
-
-                    @endforeach
-
                 </form>
 
             </section>
