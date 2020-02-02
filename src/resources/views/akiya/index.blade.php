@@ -71,9 +71,10 @@
                     <p class="c-title"><span>八女市</span>の空き家(○○件)</p>
                     <div class="c-house__list">
                         <div class="house__item">
+
+                            @foreach ($akiyas as $akiya)
+                            {{ $akiya->akiya_id }}
                             <div class="item__txt">
-                                @foreach ($akiyas as $akiya)
-                                {{ $akiya->akiya_id }}
                                 <dl>
                                     <dt>所在地：</dt>
                                     <dd>{{ $akiya->location }}</dd>
@@ -89,8 +90,8 @@
                                     <img width=" 100" src="{{ $image_path }}">
                                     @endforeach
                                     @endforeach
+                                    <span class="icon-fav"></span>
                                 </dl>
-                                <span class="icon-fav"></span>
                             </div>
                         </div>
                     </div>
