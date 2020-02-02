@@ -181,7 +181,7 @@
                         </select>
                     </div>
                     <div class="mapArea">
-                        <img src="{{ asset('/img/map.svg') }}" alt="" width="70%" position="absolute">
+                        <img src="{{ asset('/img/map.svg') }}" alt="">
                     </div>
 
                     <p class="c-title">空き家(24件)</p>
