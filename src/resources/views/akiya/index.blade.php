@@ -65,10 +65,10 @@
                         </select>
                     </div>
                     <div class="mapArea">
-                        <img src="{{ asset('/img/map.png') }}" alt="">
+                        <img src="{{ asset('/img/map.png') }}" alt="" width="600">
                     </div>
 
-                    <p class="c-title"><span>八女市</span>の空き家(○○件)</p>
+                    <p class="c-title">空き家(24件)</p>
                     <div class="c-house__list">
 
                         @foreach ($akiyas as $akiya)
