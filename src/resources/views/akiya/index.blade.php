@@ -70,9 +70,10 @@
 
                     <p class="c-title"><span>八女市</span>の空き家(○○件)</p>
                     <div class="c-house__list">
+
+                        @foreach ($akiyas as $akiya)
                         <div class="house__item">
 
-                            @foreach ($akiyas as $akiya)
                             <div class="item__txt">
                                 <!-- {{ $akiya->akiya_id }} -->
                                 <dt>所在地：</dt>
@@ -90,8 +91,9 @@
                                 @endforeach
                                 <span class="icon-fav"></span>
                             </div>
-                            @endforeach
                         </div>
+
+                        @endforeach
                     </div>
                 </form>
 
