@@ -73,7 +73,7 @@
 
                         @foreach ($akiyas as $akiya)
 
-                        <div class="item__txt">
+                        <div class="house__item">
                             <!-- {{ $akiya->akiya_id }} -->
                             <dt>所在地：</dt>
                             <dd>{{ $akiya->location }}</dd>
