@@ -19,9 +19,9 @@ class CreateBuildsTable extends Migration
             // $table->foreign('builder_id')
             // ->references('id')->on('builders')
             // ->onDelete('cascade');
-            $table->string('photo1'); //写真1
-            $table->string('photo2'); //写真2
-            $table->string('photo3'); //写真3
+            // $table->string('photo1'); //写真1
+            // $table->string('photo2'); //写真2
+            // $table->string('photo3'); //写真3
             $table->string('office'); //事業所名
             $table->string('place'); //場所
             $table->date('completionDate'); //竣工日

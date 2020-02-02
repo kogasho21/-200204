@@ -14,9 +14,9 @@ class AddImageBuildersTable extends Migration
     public function up()
     {
         Schema::table('builders', function (Blueprint $table) {
-            $table->string('photo1');
-            $table->string('photo2');
-            $table->string('photo3');
+            // $table->string('photo1');
+            // $table->string('photo2');
+            // $table->string('photo3');
         });
     }
 
