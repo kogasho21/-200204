@@ -51,9 +51,6 @@
         </div>
     </header>
 
-    @extends('layouts.app')
-    @section('content')
-
     <div class="l-content">
         <main class="l-main" role="main">
             <section>
@@ -68,7 +65,8 @@
                         </select>
                     </div>
                     <div class="mapArea">
-                        <img src="{{ asset('/img/map.png') }}" alt="">
+                        <li><img src="{{ asset('/img/map.png') }}" alt="">
+                        </li>
                     </div>
 
                     <p class="c-title"><span>八女市</span>の空き家(○○件)</p>
@@ -94,7 +92,6 @@
                                     @endforeach
                                 </dl>
                                 <span class="icon-fav"></span>
-
                             </div>
                         </div>
                     </div>
@@ -109,6 +106,3 @@
 </body>
 
 </html>
-
-
-@stop
