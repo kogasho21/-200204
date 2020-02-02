@@ -42,7 +42,7 @@
             </div>
             <nav class="l-navArea">
                 <ul class="gnav">
-                    <li>■ 空き家を探す</li>
+                    <li><a href="/search_house/">■ 空き家を探す</a></li>
                     <li><a href="/search_building/">■ 好みの建物を探す</a></li>
                     <li><a href="/person/">■ 建築家の情報を見る</a></li>
                     <li><a href="/mypage/">■ マイページ</a></li>
@@ -72,9 +72,9 @@
                     <div class="c-house__list">
                         <div class="house__item">
                             <div class="item__txt">
+                                @foreach ($akiyas as $akiya)
+                                {{ $akiya->akiya_id }}
                                 <dl>
-                                    @foreach ($akiyas as $akiya)
-                                    {{ $akiya->akiya_id }}
                                     <dt>所在地：</dt>
                                     <dd>{{ $akiya->location }}</dd>
                                     <dt>⼟地⾯積：</dt>
