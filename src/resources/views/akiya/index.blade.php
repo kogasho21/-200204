@@ -88,9 +88,8 @@
                                     <dd>{{ $akiya->buildingstructure }}</dd>
                                     @foreach ($akiya->image_paths as $image_path)
                                     <img width=" 100" src="{{ $image_path }}">
-                                    @endforeach
-                                    <span class="icon-fav"></span>
                                 </dl>
+                                <span class="icon-fav"></span>
                             </div>
                             @endforeach
                         </div>
