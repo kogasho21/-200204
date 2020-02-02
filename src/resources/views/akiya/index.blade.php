@@ -69,31 +69,33 @@
                     </div>
 
                     <p class="c-title">空き家(24件)</p>
+
+                    @foreach ($akiyas as $akiya)
+
                     <div class="c-house__list">
-
-                        @foreach ($akiyas as $akiya)
-
                         <div class="house__item">
-                            <!-- {{ $akiya->akiya_id }} -->
-                            <dt>所在地：</dt>
-                            <dd>{{ $akiya->location }}</dd>
-                            <dt>⼟地⾯積：</dt>
-                            <dd>{{ $akiya->landarea }}</dd>
-                            <dt>私道⾯積：</dt>
-                            <dd>{{ $akiya->drivewayarea }}</dd>
-                            <dt>建物⾯積：</dt>
-                            <dd>{{ $akiya->buildingarea }}</dd>
-                            <dt>建物構造：</dt>
-                            <dd>{{ $akiya->buildingstructure }}</dd>
-                            @foreach ($akiya->image_paths as $image_path)
-                            <img width=" 100" src="{{ $image_path }}">
-                            @endforeach
-                            <span class="icon-fav"></span>
-
+                            <div class="house__item">
+                                <!-- {{ $akiya->akiya_id }} -->
+                                <dt>所在地：</dt>
+                                <dd>{{ $akiya->location }}</dd>
+                                <dt>⼟地⾯積：</dt>
+                                <dd>{{ $akiya->landarea }}</dd>
+                                <dt>私道⾯積：</dt>
+                                <dd>{{ $akiya->drivewayarea }}</dd>
+                                <dt>建物⾯積：</dt>
+                                <dd>{{ $akiya->buildingarea }}</dd>
+                                <dt>建物構造：</dt>
+                                <dd>{{ $akiya->buildingstructure }}</dd>
+                                @foreach ($akiya->image_paths as $image_path)
+                                <img width=" 100" src="{{ $image_path }}">
+                                @endforeach
+                                <span class="icon-fav"></span>
+                            </div>
                         </div>
-
-                        @endforeach
                     </div>
+
+                    @endforeach
+
                 </form>
 
             </section>
