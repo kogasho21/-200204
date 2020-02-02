@@ -28,9 +28,9 @@ class BuilderController extends Controller
     {
         $params = $request->validate([
             'builder_id' => 'required',
-            'photo1' => 'nullable',
-            'photo2' => 'nullable',
-            'photo3' => 'nullable',
+            // 'photo1' => 'nullable',
+            // 'photo2' => 'nullable',
+            // 'photo3' => 'nullable',
             'office' => 'required|max:30',
             'place' => 'required|max:50',
             'completionDate' => 'required|max:20',
