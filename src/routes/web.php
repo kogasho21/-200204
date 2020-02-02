@@ -51,3 +51,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('matching', 'MatchingController@index')->name('matching.index');
+
+Route::get('matching/result/{user}', 'MatchingController@result')->name('matching.result');

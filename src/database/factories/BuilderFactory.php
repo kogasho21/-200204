@@ -2,7 +2,7 @@
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
 
-use App\User;
+use App\Builder;
 use Faker\Generator as Faker;
 use Illuminate\Support\Str;
 
@@ -17,7 +17,7 @@ use Illuminate\Support\Str;
 |
 */
 
-$factory->define(User::class, function (Faker $faker) {
+$factory->define(Builder::class, function (Faker $faker) {
     return [
         'name' => $faker->name,
         'email' => $faker->unique()->safeEmail,
@@ -26,6 +26,5 @@ $factory->define(User::class, function (Faker $faker) {
         'remember_token' => Str::random(10),
         'sex' => 1,
         'birth_dt' => $faker->dateTimeBetween('-80 years', '-20years')->format('Y-m-d'),
-        'user_name' => $faker->userName,
     ];
 });

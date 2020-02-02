@@ -36,4 +36,36 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    /**
+     * ユーザが設定した音楽情報を取得します。
+     */
+    public function musicUsers()
+    {
+        return $this->hasMany('App\MusicUser');
+    }
+
+    /**
+     * ユーザが設定した本情報を取得します。
+     */
+    public function bookUsers()
+    {
+        return $this->hasMany('App\BookUser');
+    }
+
+    /**
+     * ユーザが設定したファッション情報を取得します。
+     */
+    public function fashionUsers()
+    {
+        return $this->hasMany('App\FashionUser');
+    }
+
+    /**
+     * ユーザが設定した映画情報を取得します。
+     */
+    public function movieUsers()
+    {
+        return $this->hasMany('App\MovieUser');
+    }
 }
