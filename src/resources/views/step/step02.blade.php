@@ -74,31 +74,31 @@
                             <label for="checkbox-2" class="btn">ロック</label>
                         </li>
                         <li>
-                            <input type="checkbox" class="checkbox" id="checkbox-2" name="group" />
+                            <input type="checkbox" class="checkbox" id="checkbox-3" name="group" />
                             <label for="checkbox-3" class="btn">フェミニン</label>
                         </li>
                         <li>
-                            <input type="checkbox" class="checkbox" id="checkbox-3" name="group" />
+                            <input type="checkbox" class="checkbox" id="checkbox-4" name="group" />
                             <label for="checkbox-4" class="btn">コンサバ</label>
                         </li>
                         <li>
-                            <input type="checkbox" class="checkbox" id="checkbox-4" name="group" />
+                            <input type="checkbox" class="checkbox" id="checkbox-5" name="group" />
                             <label for="checkbox-5" class="btn">エレガント</label>
                         </li>
                         <li>
-                            <input type="checkbox" class="checkbox" id="checkbox-5" name="group" />
+                            <input type="checkbox" class="checkbox" id="checkbox-6" name="group" />
                             <label for="checkbox-6" class="btn">マニッシュ</label>
                         </li>
                         <li>
-                            <input type="checkbox" class="checkbox" id="checkbox-6" name="group" />
+                            <input type="checkbox" class="checkbox" id="checkbox-7" name="group" />
                             <label for="checkbox-7" class="btn">モダン</label>
                         </li>
                         <li>
-                            <input type="checkbox" class="checkbox" id="checkbox-7" name="group" />
+                            <input type="checkbox" class="checkbox" id="checkbox-8" name="group" />
                             <label for="checkbox-8" class="btn">ナチュラル</label>
                         </li>
                         <li>
-                            <input type="checkbox" class="checkbox" id="checkbox-8" name="group" />
+                            <input type="checkbox" class="checkbox" id="checkbox-9" name="group" />
                             <label for="checkbox-9" class="btn">スポーティ</label>
                         </li>
                         <li>

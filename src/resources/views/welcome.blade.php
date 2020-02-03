@@ -55,20 +55,6 @@
     <!-- content start -->
     <div class="l-content">
         <main class="l-main" role="main">
-            @if (Route::has('login'))
-            <div class="top-right links">
-                @auth
-                <a href="{{ url('/home') }}">Home</a>
-                @else
-                <a href="{{ route('login') }}">Login</a>
-
-                @if (Route::has('register'))
-                <a href="{{ route('register') }}">Register</a>
-                @endif
-                @endauth
-            </div>
-            @endif
-
             <div class="main_visual">
                 <h2 class="main_ttl">
                     「理想のライフスタイルの実現をサポート」
