@@ -67,39 +67,39 @@
                     <ul class="step__list">
                         <li>
                             <input type="checkbox" class="checkbox" id="checkbox-1" name="group" />
-                            <label for="checkbox-1" class="btn">ミステリー<br>サスペン</label>
+                            <label for="checkbox-1" class="btn">メタル</label>
                         </li>
                         <li>
                             <input type="checkbox" class="checkbox" id="checkbox-2" name="group" />
-                            <label for="checkbox-2" class="btn">SF</label>
+                            <label for="checkbox-2" class="btn">ロック</label>
                         </li>
                         <li>
                             <input type="checkbox" class="checkbox" id="checkbox-3" name="group" />
-                            <label for="checkbox-3" class="btn">歴史</label>
+                            <label for="checkbox-3" class="btn">フォークソング</label>
                         </li>
                         <li>
                             <input type="checkbox" class="checkbox" id="checkbox-4" name="group" />
-                            <label for="checkbox-4" class="btn">ファンタジー</label>
+                            <label for="checkbox-4" class="btn">レゲエ</label>
                         </li>
                         <li>
                             <input type="checkbox" class="checkbox" id="checkbox-5" name="group" />
-                            <label for="checkbox-5" class="btn">趣味・実⽤</label>
+                            <label for="checkbox-5" class="btn">テクノポップ</label>
                         </li>
                         <li>
                             <input type="checkbox" class="checkbox" id="checkbox-6" name="group" />
-                            <label for="checkbox-6" class="btn">エッセイ</label>
+                            <label for="checkbox-6" class="btn">ハードコア</label>
                         </li>
                         <li>
                             <input type="checkbox" class="checkbox" id="checkbox-7" name="group" />
-                            <label for="checkbox-7" class="btn">ノンフィクション</label>
+                            <label for="checkbox-7" class="btn">オルタナ</label>
                         </li>
                         <li>
                             <input type="checkbox" class="checkbox" id="checkbox-8" name="group" />
-                            <label for="checkbox-8" class="btn">⼈⽂・思想</label>
+                            <label for="checkbox-8" class="btn">ジャズ</label>
                         </li>
                         <li>
                             <input type="checkbox" class="checkbox" id="checkbox-9" name="group" />
-                            <label for="checkbox-9" class="btn">アート</label>
+                            <label for="checkbox-9" class="btn">演歌</label>
                         </li>
                         <li>
                             <input type="checkbox" class="checkbox" id="checkbox-10" name="group" />
