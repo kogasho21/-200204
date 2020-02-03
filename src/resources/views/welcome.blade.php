@@ -150,7 +150,7 @@
                     </div>
                 </div><!-- .home-how end-->
 
-                <a href="/step/" class="c-linkBtn next">次へ</a>
+                <a href="/step/" class="c-linkBtn next">始める</a>
             </section>
 
         </main>
