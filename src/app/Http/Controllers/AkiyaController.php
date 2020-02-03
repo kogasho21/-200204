@@ -3,9 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Akiya;
-use App\Favorite;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
 use SplFileObject;
 
 class AkiyaController extends Controller
@@ -53,15 +51,5 @@ class AkiyaController extends Controller
         $data = array('akiya' => $akiya, 'id' => $id);
 
         return view('akiya.show')->with($data);
-    }
-
-    public function favorite(Request $request)
-    {
-        Favorite::create([
-            'user_id' => Auth::user()->id,
-            'akiya_id' => $request->get('akiya_id')
-        ]);
-
-        return redirect('/mypage');
     }
 }

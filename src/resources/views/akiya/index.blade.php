@@ -181,36 +181,36 @@
                         </select>
                     </div>
                     <div class="mapArea">
-                        <img src="{{ asset('/img/map.svg') }}" alt="" width="70%">
+                        <img src="{{ asset('/img/map.svg') }}" alt="" width="70%" position="relative">
                     </div>
 
                     <p class="c-title">空き家(24件)</p>
-                    @extends('layouts.app')
-                    @section('content')
+                    <div class="c-house__list">
 
-                    <div class="col-xs-8 col-xs-offset-2">
-                        <div class="mb-4">
-                            @foreach ($akiyas as $akiya)
-                            <p>{{ link_to("/akiya/{$akiya->id}/show", '続きを読む', array('class' => 'btn btn-primary')) }}</p>
-                            <form action="{{ url('/akiya/favorite') }}" method="post">
-                                @csrf
-                                <input type="hidden" name="akiya_id" value="{{ $akiya->id }}" />
-                                <input type="submit" value="お気に入り登録" class="btn btn-primary" />
-                            </form>
-                            {{ $akiya->akiya_id }}<br>
-                            {{ $akiya->location }}<br>
-                            {{ $akiya->landarea }}<br>
-                            {{ $akiya->drivewayarea }}<br>
-                            {{ $akiya->buildingarea }}<br>
-                            {{ $akiya->buildingstructure }}<br>
-                            @foreach ($akiya->image_paths as $image_path)
-                            <img width="100" src="{{ $image_path }}">
-                            @endforeach
-                            @endforeach
+                        @foreach ($akiyas as $akiya)
+                        <div class="house__item">
+
+                            <div class="item__txt">
+                                <!-- {{ $akiya->akiya_id }} -->
+                                <dt>所在地：</dt>
+                                <dd>{{ $akiya->location }}</dd>
+                                <dt>⼟地⾯積：</dt>
+                                <dd>{{ $akiya->landarea }}</dd>
+                                <dt>私道⾯積：</dt>
+                                <dd>{{ $akiya->drivewayarea }}</dd>
+                                <dt>建物⾯積：</dt>
+                                <dd>{{ $akiya->buildingarea }}</dd>
+                                <dt>建物構造：</dt>
+                                <dd>{{ $akiya->buildingstructure }}</dd>
+                                @foreach ($akiya->image_paths as $image_path)
+                                <img width=" 100" src="{{ $image_path }}">
+                                @endforeach
+                                <span class="icon-fav"></span>
+                            </div>
                         </div>
-                    </div>
 
-                    @stop
+                        @endforeach
+                    </div>
                 </form>
 
             </section>
