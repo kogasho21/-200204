@@ -185,6 +185,9 @@
                     </div>
 
                     <p class="c-title">空き家(24件)</p>
+                    @extends('layouts.app')
+                    @section('content')
+
                     <div class="col-xs-8 col-xs-offset-2">
                         <div class="mb-4">
                             @foreach ($akiyas as $akiya)
@@ -206,6 +209,8 @@
                             @endforeach
                         </div>
                     </div>
+
+                    @stop
                 </form>
 
             </section>
