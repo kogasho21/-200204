@@ -55,6 +55,15 @@ Route::get('matching', 'MatchingController@index')->name('matching.index');
 
 Route::get('matching/result/{user}', 'MatchingController@result')->name('matching.result');
 
-Route::get('/step', function () {
+Route::get('/step01', function () {
     return view('step/step01');
+});
+Route::get('/step02', function () {
+    return view('step/step02');
+});
+Route::get('/step03', function () {
+    return view('step/step03');
+});
+Route::get('/step04', function () {
+    return view('step/step04');
 });

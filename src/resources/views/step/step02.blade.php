@@ -57,17 +57,17 @@
                 <h2>Step1</h2>
                 <ul class="flow">
                     <li class="active">本</li>
-                    <li>服</li>
+                    <li class="active">服</li>
                     <li>映画</li>
                     <li>音楽</li>
                 </ul>
-                <h3 class="c-title">好きな本のジャンルは？</h3>
+                <h3 class="c-title">好きな服のジャンルは？</h3>
                 <p>必ず⼀つ選んでください</p>
                 <form class="" action="" method="post">
                     <ul class="step__list">
                         <li>
                             <input type="checkbox" class="checkbox" id="checkbox-1" name="group" />
-                            <label for="checkbox-1" class="btn">ミステリー<br>サスペンス</label>
+                            <label for="checkbox-1" class="btn">ミステリー<br>サスペン</label>
                         </li>
                         <li>
                             <input type="checkbox" class="checkbox" id="checkbox-2" name="group" />
@@ -108,8 +108,8 @@
                     </ul>
                 </form>
                 <ul class="pagelink">
-                    <li><a href="/" class="c-linkBtn prev">前へ</a></li>
-                    <li><a href="/step02" class="c-linkBtn next">次へ</a></li>
+                    <li><a href="/step01" class="c-linkBtn prev">前へ</a></li>
+                    <li><a href="/step03" class="c-linkBtn next">次へ</a></li>
                 </ul>
             </section><!-- .step__list end-->
         </main>
