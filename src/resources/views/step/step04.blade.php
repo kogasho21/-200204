@@ -109,7 +109,7 @@
                 </form>
                 <ul class="pagelink">
                     <li><a href="/step03" class="c-linkBtn prev">前へ</a></li>
-                    <li><a href="/akiya" class="c-linkBtn next">登録</a></li>
+                    <li><a href="/matching" class="c-linkBtn next">登録</a></li>
                 </ul>
             </section><!-- .step__list end-->
         </main>
