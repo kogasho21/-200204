@@ -16,7 +16,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::resource('bbc', 'PostsController');
-Route::resource('mypage', 'MypageController');
+Route::resource('mypage', 'MypageController')->middleware('auth');
 Route::resource('akiya', 'AkiyaController');
 Route::resource('builder', 'BuilderController');
 Route::resource('build', 'BuildController');
@@ -25,6 +25,7 @@ Route::resource('/photos', 'PhotosController', ['only' => ['create', 'store']]);
 
 Route::get('/akiya/{id}/show', 'AkiyaController@show');
 Route::get('/akiya', 'AkiyaController@index');
+Route::post('/akiya/favorite', 'AkiyaController@favorite');
 
 Route::get('/build/{id}/show', 'BuildController@show');
 Route::get('/build', 'BuildController@index');
