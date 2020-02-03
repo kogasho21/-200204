@@ -42,7 +42,7 @@
             </div>
             <nav class="l-navArea">
                 <ul class="gnav">
-                    <li><a href="/search_house/">■ 空き家を探す</a></li>
+                    <li><a href="/akiya">■ 空き家を探す</a></li>
                     <li><a href="/search_building/">■ 好みの建物を探す</a></li>
                     <li><a href="/person/">■ 建築家の情報を見る</a></li>
                     <li><a href="/mypage/">■ マイページ</a></li>
