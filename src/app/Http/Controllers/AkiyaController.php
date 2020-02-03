@@ -58,7 +58,7 @@ class AkiyaController extends Controller
     public function favorite(Request $request)
     {
         Favorite::create([
-            'user_id' => Auth::user()->id,
+            // 'user_id' => Auth::user()->id,
             'akiya_id' => $request->get('akiya_id')
         ]);
 
